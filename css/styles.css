@@ -1,0 +1,105 @@
+.title,
+.index-img {
+  display: block;
+  margin: 0 auto; }
+
+.index-img {
+  width: 100%;
+  height: auto; }
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .image-box {
+    padding: 10% 0; } }
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .image-box {
+    padding: 10% 0; } }
+
+p {
+  text-align: left;
+  padding: 0 2%; }
+  @media all and (max-width: 479px) {
+    p {
+      padding: 0 5%; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    p {
+      padding: 0 5%; } }
+
+.orange {
+  color: #ff9b37; }
+
+.blue {
+  color: blue; }
+
+.padded {
+  padding: 0 2%; }
+
+a {
+  color: blue; }
+  a:hover, a:active {
+    color: blue; }
+  a:visited {
+    color: #660099; }
+
+.gray-link {
+  color: #989898;
+  text-decoration: none; }
+  .gray-link:hover, .gray-link:visited, .gray-link:focus, .gray-link:active {
+    color: #989898; }
+
+.lt-gray-link {
+  color: #cccccc;
+  text-decoration: none; }
+  .lt-gray-link:hover, .lt-gray-link:visited, .lt-gray-link:focus, .lt-gray-link:active {
+    color: #cccccc; }
+
+.button-nav {
+  background: black;
+  height: 35px;
+  width: 100%;
+  line-height: 35px;
+  vertical-align: middle;
+  text-align: center; }
+  .button-nav .button-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .button-nav .button-item {
+    display: inline;
+    font-weight: 700;
+    cursor: pointer; }
+    @media all and (min-width: 1200px) {
+      .button-nav .button-item {
+        padding: 0 3%; } }
+    @media all and (min-width: 992px) and (max-width: 1199px) {
+      .button-nav .button-item {
+        padding: 0; } }
+    @media all and (min-width: 768px) and (max-width: 991px) {
+      .button-nav .button-item {
+        padding: 0; } }
+    @media all and (min-width: 480px) and (max-width: 767px) {
+      .button-nav .button-item {
+        padding: 0 3%; } }
+    @media all and (max-width: 479px) {
+      .button-nav .button-item {
+        padding: 0 3%; } }
+
+.offer-text {
+  display: inline; }
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+  .footer-list .footer-item {
+    display: inline; }
+
+body {
+  background: #222222;
+  color: #cccccc; }
+
+.footer {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle; }

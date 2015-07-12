@@ -1,0 +1,19 @@
+.title,
+.index-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.index-img {
+  width: 100%;
+  height: auto;
+}
+
+.image-box{
+  @include breakpoint(desktop){
+    padding: 10% 0;
+  }
+  @include breakpoint(tablet){
+    padding: 10% 0;
+  }
+}

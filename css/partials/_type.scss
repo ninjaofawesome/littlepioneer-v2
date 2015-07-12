@@ -1,0 +1,98 @@
+p {
+  text-align: left;
+  padding: 0 2%;
+  @include breakpoint(iphone){
+    padding: 0 5%;
+  }
+  @include breakpoint(mobile){
+    padding: 0 5%;
+  }
+}
+
+.orange {
+  color: $orange;
+}
+
+.blue {
+  color: $blue;
+}
+
+.padded {
+  padding: 0 2%;
+}
+
+a {
+  color: $blue;
+  &:hover, &:active {
+    color: $blue;
+  }
+  &:visited {
+    color: $purple;
+  }
+
+ }
+
+ .gray-link{
+   color: $dk-gray;
+   text-decoration: none;
+   &:hover, &:visited, &:focus, &:active {
+     color: $dk-gray;
+   }
+ }
+
+ .lt-gray-link{
+   color: $lt-gray;
+   text-decoration: none;
+   &:hover, &:visited, &:focus, &:active {
+     color: $lt-gray;
+   }
+ }
+
+
+.button-nav {
+  background: $black;
+  height: 35px;
+  width: 100%;
+  line-height: 35px;
+  vertical-align: middle;
+  text-align: center;
+  .button-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .button-item {
+    display: inline;
+    font-weight: 700;
+    cursor: pointer;
+    @include breakpoint(large){
+      padding: 0 3%;
+    }
+    @include breakpoint(desktop){
+      padding: 0;
+    }
+
+    @include breakpoint(tablet){
+      padding: 0;
+    }
+    @include breakpoint(mobile){
+      padding: 0 3%;
+    }
+    @include breakpoint(iphone){
+      padding: 0 3%;
+    }
+  }
+}
+
+.offer-text {
+  display: inline;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  .footer-item {
+    display: inline;
+  }
+}
