@@ -23,6 +23,16 @@
 p {
   text-align: justify; }
 
+a {
+  color: #265e5e;
+  text-decoration: none; }
+  a:hover, a:active, a:focus {
+    color: #44aaaa;
+    text-decoration: none; }
+  a:visited {
+    color: #265e5e;
+    text-decoration: underline; }
+
 .orange {
   color: #ff9b37; }
 
@@ -35,12 +45,51 @@ p {
 .padded {
   padding: 0 2%; }
 
-a {
-  color: blue; }
-  a:hover, a:active {
-    color: blue; }
-  a:visited {
-    color: #660099; }
+.logo {
+  color: #ff9b37;
+  font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 6em; }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .logo {
+      font-size: 5em; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .logo {
+      font-size: 4em; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .logo {
+      font-size: 2em; } }
+  @media all and (max-width: 479px) {
+    .logo {
+      font-size: 2em; } }
+
+.subtitle,
+.section-title {
+  color: #265e5e;
+  text-transform: uppercase;
+  text-align: center; }
+
+.more-button {
+  border-radius: 6px;
+  background: white;
+  color: #ff9b37;
+  border: 2px solid #ff9b37;
+  padding: 5px 10px;
+  font-weight: 700;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  display: block;
+  margin: 1% auto;
+  width: 200px; }
+  .more-button:hover, .more-button:focus, .more-button:active {
+    background: #ff9b37;
+    color: white;
+    border: 2px solid white; }
+  .more-button:visited {
+    background: white;
+    color: #ff9b37;
+    border: 2px solid #ff9b37; }
 
 body {
   background: white;
@@ -72,6 +121,10 @@ body {
 .body-content {
   margin: 50px 0; }
 
+.paragraph-box {
+  width: 100%;
+  height: 150px; }
+
 .fill {
   display: flex;
   justify-content: center;
@@ -85,22 +138,9 @@ body {
     min-width: 100%;
     min-height: 100%; }
 
-.logo {
-  color: #ff9b37;
-  font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif;
+.logo-box {
+  width: 100%;
+  height: 200px;
   z-index: 5;
-  text-transform: uppercase;
-  font-size: 7em;
-  text-align: center;
   position: absolute;
-  top: 30%;
-  left: 7%; }
-
-.subtitle {
-  color: #265e5e;
-  z-index: 5;
-  text-transform: uppercase;
-  text-align: center;
-  position: absolute;
-  top: 55%;
-  left: 20%; }
+  top: 25%; }

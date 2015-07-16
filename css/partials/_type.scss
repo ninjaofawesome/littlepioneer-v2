@@ -17,6 +17,19 @@ p {
   text-align: justify;
 }
 
+a{
+  color: $blue-green;
+  text-decoration: none;
+  &:hover, &:active, &:focus {
+    color: $aqua;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $blue-green;
+    text-decoration: underline;
+  }
+}
+
 .orange {
   color: $orange;
 }
@@ -33,16 +46,35 @@ p {
   padding: 0 2%;
 }
 
-a {
-  color: $blue;
-  &:hover, &:active {
-    color: $blue;
+.logo {
+  color: $orange;
+  font-family: $disco;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 6em;
+  @include breakpoint(desktop){
+    font-size: 5em;
   }
-  &:visited {
-    color: $purple;
+  @include breakpoint(tablet){
+    font-size: 4em;
   }
+  @include breakpoint(mobile){
+    font-size: 2em;
+  }
+  @include breakpoint(iphone){
+    font-size: 2em;
+  }
+}
 
- }
+.subtitle,
+.section-title {
+  color: $blue-green;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
 
 
 
