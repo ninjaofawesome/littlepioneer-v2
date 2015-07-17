@@ -5,6 +5,13 @@
    background-size: $type;
 }
 
+@mixin link-transition($time){
+  -webkit-transition: all $time ease-out;
+  -moz-transition: all $time ease-out;
+  -o-transition: all $time ease-out;
+  transition: all $time ease-out;
+}
+
 //for breakpoint specific views
 @mixin breakpoint($point) {
   @if $point == iphone {

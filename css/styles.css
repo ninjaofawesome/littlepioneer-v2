@@ -45,6 +45,9 @@ a {
 .padded {
   padding: 0 2%; }
 
+.centered {
+  text-align: center; }
+
 .logo {
   color: #ff9b37;
   font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif;
@@ -64,13 +67,36 @@ a {
     .logo {
       font-size: 2em; } }
 
+.record {
+  color: #265e5e; }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .record {
+      font-size: 3em; } }
+  @media all and (max-width: 479px) {
+    .record {
+      font-size: 3em; } }
+
 .subtitle,
 .section-title {
   color: #265e5e;
   text-transform: uppercase;
   text-align: center; }
 
-.more-button {
+.fa-link {
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  color: #ff9b37; }
+  .fa-link:hover, .fa-link:active, .fa-link:focus {
+    color: #444444; }
+
+.more-button,
+.contact-button {
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
   border-radius: 6px;
   background: white;
   color: #ff9b37;
@@ -82,14 +108,32 @@ a {
   display: block;
   margin: 1% auto;
   width: 200px; }
-  .more-button:hover, .more-button:focus, .more-button:active {
+  .more-button:hover, .more-button:focus, .more-button:active,
+  .contact-button:hover,
+  .contact-button:focus,
+  .contact-button:active {
     background: #ff9b37;
     color: white;
     border: 2px solid white; }
-  .more-button:visited {
+  .more-button:visited,
+  .contact-button:visited {
     background: white;
     color: #ff9b37;
     border: 2px solid #ff9b37; }
+
+.contact-button {
+  width: 250px;
+  background: #265e5e;
+  color: white;
+  border: 2px solid #265e5e; }
+  .contact-button:hover, .contact-button:focus, .contact-button:active {
+    background: white;
+    color: #265e5e;
+    border: 2px solid #265e5e; }
+  .contact-button:visited {
+    background: #265e5e;
+    color: white;
+    border: 2px solid #265e5e; }
 
 body {
   background: white;
@@ -124,6 +168,13 @@ body {
 .paragraph-box {
   width: 100%;
   height: 150px; }
+
+.email {
+  height: 50px;
+  width: 50px;
+  right: 0;
+  top: 0;
+  position: absolute; }
 
 .fill {
   display: flex;

@@ -46,6 +46,10 @@ a{
   padding: 0 2%;
 }
 
+.centered {
+  text-align: center;
+}
+
 .logo {
   color: $orange;
   font-family: $disco;
@@ -66,11 +70,29 @@ a{
   }
 }
 
+.record {
+  color: $blue-green;
+  @include breakpoint(mobile){
+    font-size: 3em;
+  }
+  @include breakpoint(iphone){
+    font-size: 3em;
+  }
+}
+
 .subtitle,
 .section-title {
   color: $blue-green;
   text-transform: uppercase;
   text-align: center;
+}
+
+.fa-link {
+  @include link-transition(500ms);
+  color: $orange;
+  &:hover, &:active, &:focus {
+    color: $charcoal;
+  }
 }
 
 
