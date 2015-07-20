@@ -91,6 +91,12 @@ a {
   .fa-link:hover, .fa-link:active, .fa-link:focus {
     color: #444444; }
 
+.p-pad {
+  padding: 0 5%; }
+
+.bold {
+  font-weight: 700; }
+
 .more-button,
 .contact-button {
   -webkit-transition: all 500ms ease-out;
@@ -195,3 +201,16 @@ body {
   z-index: 5;
   position: absolute;
   top: 25%; }
+
+.gear-list {
+  list-style-type: none;
+  color: #ff9b37;
+  padding: 0;
+  margin: 0;
+  text-align: justify; }
+
+.craig {
+  height: 300px;
+  width: auto;
+  display: block;
+  margin: 0 auto; }
