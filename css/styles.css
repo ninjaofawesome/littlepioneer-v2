@@ -14,6 +14,13 @@
   .image-box {
     padding: 10% 0; } }
 
+.artistimage {
+  height: 200px;
+  width: auto;
+  border-radius: 100px;
+  display: block;
+  margin: 0 auto; }
+
 @font-face {
   font-family: 'street_credregular';
   src: url("../fonts/street-cred/street_cred-webfont.eot");
@@ -103,6 +110,25 @@ a {
   text-transform: uppercase;
   text-align: center;
   font-size: 700%; }
+  .title.bg {
+    color: #265e5e; }
+
+.artistname {
+  color: #ff9b37;
+  font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif; }
+  .artistname.bg {
+    color: #265e5e; }
+
+.artistlink {
+  font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif;
+  color: #ff9b37;
+  text-decoration: none; }
+  .artistlink:hover, .artistlink:active, .artistlink:focus {
+    color: #aaaa00;
+    text-decoration: none; }
+  .artistlink:visited {
+    color: #ff9b37;
+    text-decoration: underline; }
 
 .more-button,
 .contact-button {
@@ -188,6 +214,12 @@ body {
   right: 0;
   top: 0;
   position: absolute; }
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: #cccccc;
+  margin: 1% 0; }
 
 .fill {
   display: flex;

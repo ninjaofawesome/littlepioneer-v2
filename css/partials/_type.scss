@@ -109,7 +109,33 @@ a{
   text-transform: uppercase;
   text-align: center;
   font-size: 700%;
+  &.bg {
+    color: $blue-green;
+  }
 }
+
+.artistname {
+  color: $orange;
+  font-family: $disco;
+  &.bg {
+    color: $blue-green;
+  }
+}
+
+.artistlink{
+  font-family: $disco;
+  color: $orange;
+  text-decoration: none;
+  &:hover, &:active, &:focus {
+    color: $gold;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $orange;
+    text-decoration: underline;
+  }
+}
+
 
 
 
