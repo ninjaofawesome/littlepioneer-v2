@@ -14,13 +14,6 @@
   .image-box {
     padding: 10% 0; } }
 
-.artistimage {
-  height: 200px;
-  width: auto;
-  border-radius: 100px;
-  display: block;
-  margin: 0 auto; }
-
 @font-face {
   font-family: 'street_credregular';
   src: url("../fonts/street-cred/street_cred-webfont.eot");
@@ -112,23 +105,6 @@ a {
   font-size: 700%; }
   .title.bg {
     color: #265e5e; }
-
-.artistname {
-  color: #ff9b37;
-  font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif; }
-  .artistname.bg {
-    color: #265e5e; }
-
-.artistlink {
-  font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif;
-  color: #ff9b37;
-  text-decoration: none; }
-  .artistlink:hover, .artistlink:active, .artistlink:focus {
-    color: #aaaa00;
-    text-decoration: none; }
-  .artistlink:visited {
-    color: #ff9b37;
-    text-decoration: underline; }
 
 .more-button,
 .contact-button {
@@ -248,3 +224,50 @@ body {
   margin: 0;
   text-align: justify;
   font-weight: 700; }
+
+.gear-list {
+  list-style-type: none;
+  color: #ff9b37;
+  padding: 0 5%;
+  margin: 0;
+  text-align: justify;
+  font-weight: 700; }
+
+.border-box {
+  width: 90%;
+  height: auto;
+  margin: 2.5% 5%;
+  border: 1px solid #cccccc; }
+  .border-box .artistimage {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    display: block;
+    margin: 2.5% auto; }
+  .border-box .paragraph-box {
+    width: 90%;
+    height: 300px;
+    margin: 5%;
+    overflow: hidden;
+    position: relative; }
+  .border-box .test-p {
+    text-align: justify; }
+  .border-box .artistname {
+    color: #ff9b37;
+    font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif;
+    position: absolute;
+    bottom: 10%; }
+    .border-box .artistname.bg {
+      color: #265e5e; }
+  .border-box .artistlink {
+    font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif;
+    color: #ff9b37;
+    text-decoration: none;
+    position: absolute;
+    bottom: 7.5%; }
+    .border-box .artistlink:hover, .border-box .artistlink:active, .border-box .artistlink:focus {
+      color: #aaaa00;
+      text-decoration: none; }
+    .border-box .artistlink:visited {
+      color: #ff9b37;
+      text-decoration: underline; }

@@ -1,0 +1,64 @@
+.gear-list {
+  list-style-type: none;
+  color: $orange;
+  padding: 0 5%;
+  margin: 0;
+  text-align: justify;
+  font-weight: 700;
+}
+
+.border-box {
+  width: 90%;
+  height: auto;
+  margin: 2.5% 5%;
+  border: 1px solid $lt-gray;
+
+  .artistimage {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    display: block;
+    margin: 2.5% auto;
+  }
+
+  .paragraph-box {
+    width: 90%;
+    height: 300px;
+    margin: 5%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .test-p {
+    text-align: justify;
+
+  }
+
+  .artistname {
+    color: $orange;
+    font-family: $disco;
+    position: absolute;
+    bottom: 10%;
+    &.bg {
+      color: $blue-green;
+    }
+  }
+
+  .artistlink{
+    font-family: $disco;
+    color: $orange;
+    text-decoration: none;
+    position: absolute;
+    bottom: 7.5%;
+    &:hover, &:active, &:focus {
+      color: $gold;
+      text-decoration: none;
+    }
+    &:visited {
+      color: $orange;
+      text-decoration: underline;
+    }
+  }
+}
+
+
