@@ -236,8 +236,7 @@ body {
 .border-box {
   width: 90%;
   height: auto;
-  margin: 2.5% 5%;
-  border: 1px solid #cccccc; }
+  margin: 2.5% 5%; }
   .border-box .artistimage {
     height: 200px;
     width: 200px;
@@ -246,7 +245,7 @@ body {
     margin: 2.5% auto; }
   .border-box .paragraph-box {
     width: 90%;
-    height: 300px;
+    height: 250px;
     margin: 5%;
     overflow: hidden;
     position: relative; }
@@ -255,16 +254,19 @@ body {
   .border-box .artistname {
     color: #ff9b37;
     font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif;
-    position: absolute;
-    bottom: 10%; }
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase; }
     .border-box .artistname.bg {
       color: #265e5e; }
   .border-box .artistlink {
     font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif;
     color: #ff9b37;
     text-decoration: none;
-    position: absolute;
-    bottom: 7.5%; }
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase; }
     .border-box .artistlink:hover, .border-box .artistlink:active, .border-box .artistlink:focus {
       color: #aaaa00;
       text-decoration: none; }
