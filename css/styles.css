@@ -245,9 +245,9 @@ body {
     margin: 2.5% auto; }
   .border-box .paragraph-box {
     width: 90%;
-    height: 250px;
+    height: 300px;
     margin: 5%;
-    overflow: hidden;
+    overflow: scroll;
     position: relative; }
   .border-box .test-p {
     text-align: justify; }
