@@ -39,9 +39,6 @@ a {
 .bluegreen {
   color: #265e5e; }
 
-.blue {
-  color: blue; }
-
 .padded {
   padding: 0 2%; }
 
@@ -223,7 +220,18 @@ body {
   padding: 0 5%;
   margin: 0;
   text-align: justify;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 1.25em; }
+
+.help-list {
+  list-style-type: none;
+  padding: 0 5%;
+  margin: 0;
+  text-align: justify; }
+
+.help-item {
+  font-weight: 700;
+  font-size: 1.25em; }
 
 .gear-list {
   list-style-type: none;
