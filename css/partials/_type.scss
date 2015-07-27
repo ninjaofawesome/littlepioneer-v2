@@ -94,6 +94,9 @@ a{
 
 .p-pad {
   padding: 0 5%;
+  &.large {
+    padding: 0 2.5%;
+  }
 }
 
 .bold {
@@ -108,6 +111,9 @@ a{
   font-size: 700%;
   &.bg {
     color: $blue-green;
+  }
+  &.orange {
+    color: $orange;
   }
 }
 

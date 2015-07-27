@@ -90,6 +90,8 @@ a {
 
 .p-pad {
   padding: 0 5%; }
+  .p-pad.large {
+    padding: 0 2.5%; }
 
 .bold {
   font-weight: 700; }
@@ -102,6 +104,8 @@ a {
   font-size: 700%; }
   .title.bg {
     color: #265e5e; }
+  .title.orange {
+    color: #ff9b37; }
 
 .more-button,
 .contact-button {
@@ -132,6 +136,9 @@ a {
     background: white;
     color: #ff9b37;
     border: 2px solid #ff9b37; }
+  .more-button.tall-space,
+  .contact-button.tall-space {
+    margin: 2.5% auto; }
 
 .contact-button {
   width: 250px;
