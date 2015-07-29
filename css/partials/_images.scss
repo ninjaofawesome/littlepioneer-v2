@@ -18,5 +18,19 @@
   }
 }
 
+.collaborate-img {
+  width: 400px;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 5% auto;
+  @include breakpoint(mobile){
+    width: 300px;
+  }
+  @include breakpoint(iphone){
+    width: 300px;
+  }
+}
+
 
 
