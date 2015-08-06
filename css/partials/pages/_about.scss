@@ -1,11 +1,24 @@
 .gear-list {
   list-style-type: none;
-  // color: $orange;
   padding: 0 5%;
   margin: 0;
-  text-align: justify;
+  // text-align: justify;
   font-weight: 700;
-  // font-size: 1.25em;
+}
+
+.gear-box{
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+  @include breakpoint(iphone){
+    width: 320px;
+  }
+}
+
+.g-title {
+  color: $orange;
+  font-size: 1.25em;
 }
 
 .help-list {
@@ -17,5 +30,8 @@
 
 .help-item {
   font-weight: 700;
-  // font-size: 1.25em;
 }
+
+
+
+
