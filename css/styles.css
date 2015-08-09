@@ -5,7 +5,7 @@
 
 .index-img {
   width: 100%;
-  height: auto; }
+  height: 400px; }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .image-box {
@@ -231,7 +231,7 @@ body {
   .fill img {
     flex-shrink: 0;
     min-width: 100%;
-    min-height: 100%;
+    min-height: 33%;
     opacity: 0.55;
     filter: alpha(opacity=55); }
 
