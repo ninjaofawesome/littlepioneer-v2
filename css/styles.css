@@ -191,6 +191,20 @@ body {
   vertical-align: middle;
   border-bottom: 1px solid #141414; }
 
+.custom-navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 0;
+  left: 50px; }
+  .custom-navbar li {
+    display: inline;
+    color: red;
+    vertical-align: middle;
+    text-transform: uppercase; }
+
 .logo-text {
   padding: 0 1%;
   margin: 10px 0;
