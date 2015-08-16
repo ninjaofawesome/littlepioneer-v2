@@ -95,13 +95,13 @@ a {
   text-transform: uppercase;
   text-align: center; }
 
-.fa-link {
+.fa-anch {
   -webkit-transition: all 500ms ease-out;
   -moz-transition: all 500ms ease-out;
   -o-transition: all 500ms ease-out;
   transition: all 500ms ease-out;
   color: #ff9b37; }
-  .fa-link:hover, .fa-link:active, .fa-link:focus {
+  .fa-anch:hover, .fa-anch:active, .fa-anch:focus {
     color: #444444; }
 
 .p-pad {
@@ -198,12 +198,14 @@ body {
   line-height: 50px;
   position: absolute;
   top: 0;
-  left: 50px; }
+  right: 50px; }
   .custom-navbar li {
     display: inline;
     color: red;
     vertical-align: middle;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding: 0 5px;
+    font-size: 1.75em; }
 
 .logo-text {
   padding: 0 1%;

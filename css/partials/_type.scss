@@ -87,7 +87,7 @@ a{
   text-align: center;
 }
 
-.fa-link {
+.fa-anch {
   @include link-transition(500ms);
   color: $orange;
   &:hover, &:active, &:focus {
