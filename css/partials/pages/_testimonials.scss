@@ -2,7 +2,7 @@
   width: 90%;
   height: auto;
   margin: 2.5% 5%;
-  // border: 1px solid $lt-gray;
+  border: 0 !important;
 
   .artistimage {
     height: 200px;
@@ -17,8 +17,8 @@
     width: 90%;
     height: 300px;
     margin: 5%;
-    overflow: scroll;
     position: relative;
+    border: 0 !important;
   }
 
   .test-p {
@@ -45,13 +45,16 @@
     display: block;
     margin: 0 auto;
     text-transform: uppercase;
+    border: 0 !important;
     &:hover, &:active, &:focus {
       color: $gold;
       text-decoration: none;
+      border: 0 !important;
     }
     &:visited {
       color: $orange;
-      text-decoration: underline;
+      text-decoration: none;
+      border: 0 !important;
     }
   }
 }
