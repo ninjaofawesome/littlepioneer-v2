@@ -80,14 +80,20 @@ a {
     .logo {
       font-size: 2em; } }
 
-.record {
-  color: #265e5e; }
-  @media all and (min-width: 480px) and (max-width: 767px) {
-    .record {
-      font-size: 3em; } }
-  @media all and (max-width: 479px) {
-    .record {
-      font-size: 3em; } }
+.recordingcontainer {
+  width: 75%;
+  height: auto;
+  max-height: 75px;
+  display: block;
+  margin: 0 auto; }
+
+.recording {
+  color: #265e5e;
+  font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  font-size: 4vw; }
 
 .subtitle,
 .section-title {
@@ -289,7 +295,8 @@ body {
 .artist-box {
   width: 90%;
   height: auto;
-  margin: 2.5% 5%; }
+  margin: 2.5% 5%;
+  border: 0 !important; }
   .artist-box .artistimage {
     height: 200px;
     width: 200px;
@@ -300,8 +307,8 @@ body {
     width: 90%;
     height: 300px;
     margin: 5%;
-    overflow: scroll;
-    position: relative; }
+    position: relative;
+    border: 0 !important; }
   .artist-box .test-p {
     text-align: justify; }
   .artist-box .artistname {
@@ -319,13 +326,16 @@ body {
     text-align: center;
     display: block;
     margin: 0 auto;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    border: 0 !important; }
     .artist-box .artistlink:hover, .artist-box .artistlink:active, .artist-box .artistlink:focus {
       color: #aaaa00;
-      text-decoration: none; }
+      text-decoration: none;
+      border: 0 !important; }
     .artist-box .artistlink:visited {
       color: #ff9b37;
-      text-decoration: underline; }
+      text-decoration: none;
+      border: 0 !important; }
 
 .music-box {
   display: block;

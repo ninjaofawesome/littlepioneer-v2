@@ -70,14 +70,20 @@ a{
   }
 }
 
-.record {
+.recordingcontainer {
+  width: 75%;
+  height: auto;
+  max-height: 75px;
+  display: block;
+  margin: 0 auto;
+}
+.recording {
   color: $blue-green;
-  @include breakpoint(mobile){
-    font-size: 3em;
-  }
-  @include breakpoint(iphone){
-    font-size: 3em;
-  }
+  font-family: $disco;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  font-size: 4vw;
 }
 
 .subtitle,
