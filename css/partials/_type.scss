@@ -55,9 +55,9 @@ a{
   font-family: $disco;
   text-transform: uppercase;
   text-align: center;
-  font-size: 6em;
+  font-size: 5em;
   @include breakpoint(desktop){
-    font-size: 5em;
+    font-size: 4em;
   }
   @include breakpoint(tablet){
     font-size: 4em;
@@ -68,23 +68,28 @@ a{
   @include breakpoint(iphone){
     font-size: 2em;
   }
+  &.record {
+    color: $blue-green;
+  }
 }
 
-.recordingcontainer {
-  width: 75%;
-  height: auto;
-  max-height: 75px;
-  display: block;
-  margin: 0 auto;
-}
-.recording {
-  color: $blue-green;
-  font-family: $disco;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 40px;
-  font-size: 4vw;
-}
+
+
+// .recordingcontainer {
+//   width: 75%;
+//   height: auto;
+//   max-height: 75px;
+//   display: block;
+//   margin: 0 auto;
+// }
+// .recording {
+//   color: $blue-green;
+//   font-family: $disco;
+//   text-transform: uppercase;
+//   text-align: center;
+//   font-size: 40px;
+//   font-size: 4vw;
+// }
 
 .subtitle,
 .section-title {

@@ -74,6 +74,18 @@ body {
   margin: 1% 0;
 }
 
+.hannah {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  height:50px;
+  width: 100%;
+  background: $white;
+  .tc {
+    margin-left: 5%;
+  }
+}
+
 
 
 
