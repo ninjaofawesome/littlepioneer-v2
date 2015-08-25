@@ -55,12 +55,12 @@ a{
   font-family: $disco;
   text-transform: uppercase;
   text-align: center;
-  font-size: 5em;
+  font-size: 4em;
   @include breakpoint(desktop){
-    font-size: 4em;
+    font-size: 3em;
   }
   @include breakpoint(tablet){
-    font-size: 4em;
+    font-size: 3em;
   }
   @include breakpoint(mobile){
     font-size: 2em;
@@ -73,22 +73,40 @@ a{
   }
 }
 
+.recordingcontainer {
+  width: 75%;
+  height: 75px;
+  display: block;
+  margin: 0 auto;
+}
 
+.recording {
+  color: $blue-green;
+  font-family: $disco;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4em;
+  @include breakpoint(desktop){
+    font-size: 3em;
+  }
+  @include breakpoint(tablet){
+    font-size: 3em;
+  }
+  @include breakpoint(mobile){
+    font-size: 2em;
+  }
+  @include breakpoint(iphone){
+    font-size: 2em;
+  }
 
-// .recordingcontainer {
-//   width: 75%;
-//   height: auto;
-//   max-height: 75px;
-//   display: block;
-//   margin: 0 auto;
-// }
+}
 // .recording {
 //   color: $blue-green;
 //   font-family: $disco;
 //   text-transform: uppercase;
 //   text-align: center;
-//   font-size: 40px;
-//   font-size: 4vw;
+//   font-size: 45px;
+//   font-size: 4.5vw;
 // }
 
 .subtitle,

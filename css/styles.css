@@ -66,13 +66,13 @@ a {
   font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif;
   text-transform: uppercase;
   text-align: center;
-  font-size: 5em; }
+  font-size: 4em; }
   @media all and (min-width: 992px) and (max-width: 1199px) {
     .logo {
-      font-size: 4em; } }
+      font-size: 3em; } }
   @media all and (min-width: 768px) and (max-width: 991px) {
     .logo {
-      font-size: 4em; } }
+      font-size: 3em; } }
   @media all and (min-width: 480px) and (max-width: 767px) {
     .logo {
       font-size: 2em; } }
@@ -81,6 +81,31 @@ a {
       font-size: 2em; } }
   .logo.record {
     color: #265e5e; }
+
+.recordingcontainer {
+  width: 75%;
+  height: 75px;
+  display: block;
+  margin: 0 auto; }
+
+.recording {
+  color: #265e5e;
+  font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4em; }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .recording {
+      font-size: 3em; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .recording {
+      font-size: 3em; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .recording {
+      font-size: 2em; } }
+  @media all and (max-width: 479px) {
+    .recording {
+      font-size: 2em; } }
 
 .subtitle,
 .section-title {
