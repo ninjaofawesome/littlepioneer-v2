@@ -118,6 +118,7 @@ a {
   -moz-transition: all 500ms ease-out;
   -o-transition: all 500ms ease-out;
   transition: all 500ms ease-out;
+  font-size: 1.25em;
   color: #ff9b37; }
   .fa-anch:hover, .fa-anch:active, .fa-anch:focus {
     color: #444444; }
@@ -222,8 +223,7 @@ body {
     color: red;
     vertical-align: middle;
     text-transform: uppercase;
-    padding: 0 5px;
-    font-size: 1.75em; }
+    padding: 0 2px; }
 
 .logo-text {
   padding: 0 1%;
