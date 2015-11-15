@@ -364,3 +364,18 @@ body {
   margin: 0 auto;
   width: 320px;
   height: auto; }
+
+.playlists {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+  .playlists .playlist {
+    text-align: center;
+    padding: 0;
+    margin: 2px auto; }
+  .playlists .playlist-arrow {
+    color: #ff9b37;
+    text-decoration: none; }
+    .playlists .playlist-arrow:hover, .playlists .playlist-arrow:active, .playlists .playlist-arrow:focus, .playlists .playlist-arrow:visited {
+      color: #ff9b37;
+      text-decoration: none; }
