@@ -112,6 +112,9 @@ a {
   color: #265e5e;
   text-transform: uppercase;
   text-align: center; }
+  .subtitle.listen,
+  .section-title.listen {
+    margin-bottom: 10px; }
 
 .fa-anch {
   -webkit-transition: all 500ms ease-out;
@@ -361,9 +364,23 @@ body {
 
 .music-box {
   display: block;
-  margin: 0 auto;
-  width: 320px;
-  height: auto; }
+  margin: 10px auto;
+  height: 520px; }
+  @media all and (min-width: 1200px) {
+    .music-box {
+      width: 400px; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .music-box {
+      width: 385px; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .music-box {
+      width: 375px; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .music-box {
+      width: 350px; } }
+  @media all and (max-width: 479px) {
+    .music-box {
+      width: 320px; } }
 
 .playlists {
   list-style-type: none;

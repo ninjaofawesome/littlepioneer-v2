@@ -1,8 +1,24 @@
 .music-box {
   display: block;
-  margin: 0 auto;
-  width: 320px;
-  height: auto;
+  margin: 10px auto;
+  height: 520px;
+  @include breakpoint(large){
+    width:400px;
+  }
+  @include breakpoint(desktop){
+    width: 385px;
+  }
+  @include breakpoint(tablet){
+    width: 375px;
+  }
+  @include breakpoint(mobile){
+    width: 350px;
+  }
+  @include breakpoint(iphone){
+    width: 320px;
+  }
+
+
 }
 
 .playlists {

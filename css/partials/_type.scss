@@ -114,6 +114,9 @@ a{
   color: $blue-green;
   text-transform: uppercase;
   text-align: center;
+  &.listen{
+    margin-bottom: 10px;
+  }
 }
 
 .fa-anch {
