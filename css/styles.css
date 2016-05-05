@@ -19,7 +19,7 @@
   height: auto;
   border-radius: 12px;
   display: block;
-  margin: 0 auto; }
+  margin: 10px auto 0 auto; }
   @media all and (min-width: 480px) and (max-width: 767px) {
     .collaborate-img {
       width: 300px; } }
@@ -279,8 +279,8 @@ body {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 33%;
-    opacity: 0.55;
-    filter: alpha(opacity=55); }
+    opacity: 0.50;
+    filter: alpha(opacity=50); }
 
 .logo-box {
   width: 100%;
