@@ -82,6 +82,37 @@ a {
   .logo.record {
     color: #265e5e; }
 
+.ex-large {
+  margin-top: 2.5%;
+  font-size: 8em; }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .ex-large {
+      font-size: 6em; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .ex-large {
+      font-size: 6em; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .ex-large {
+      font-size: 5em; } }
+  @media all and (max-width: 479px) {
+    .ex-large {
+      font-size: 5em; } }
+
+.ex-small {
+  font-size: 2vw; }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .ex-small {
+      font-size: 2vw; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .ex-small {
+      font-size: 3vw; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .ex-small {
+      font-size: 5vw; } }
+  @media all and (max-width: 479px) {
+    .ex-small {
+      font-size: 5vw; } }
+
 .recordingcontainer {
   width: 75%;
   height: 75px;

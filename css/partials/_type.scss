@@ -71,7 +71,47 @@ a{
   &.record {
     color: $blue-green;
   }
+
 }
+
+
+.ex-large {
+  margin-top: 2.5%;
+  font-size: 8em;
+  @include breakpoint(desktop){
+    font-size: 6em;
+  }
+  @include breakpoint(tablet){
+    font-size: 6em;
+  }
+  @include breakpoint(mobile){
+    font-size: 5em;
+  }
+  @include breakpoint(iphone){
+    font-size: 5em;
+  }
+
+}
+
+
+
+.ex-small {
+  font-size: 2vw;
+  @include breakpoint(desktop){
+    font-size: 2vw;
+  }
+  @include breakpoint(tablet){
+    font-size: 3vw;
+  }
+  @include breakpoint(mobile){
+    font-size: 5vw;
+  }
+  @include breakpoint(iphone){
+    font-size: 5vw;
+  }
+
+}
+
 
 .recordingcontainer {
   width: 75%;
@@ -100,14 +140,6 @@ a{
   }
 
 }
-// .recording {
-//   color: $blue-green;
-//   font-family: $disco;
-//   text-transform: uppercase;
-//   text-align: center;
-//   font-size: 45px;
-//   font-size: 4.5vw;
-// }
 
 .subtitle,
 .section-title {
