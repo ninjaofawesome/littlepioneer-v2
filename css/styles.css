@@ -27,6 +27,25 @@
     .collaborate-img {
       width: 300px; } }
 
+.background-poster {
+  background-image: url("./../img/IMG_0100_M.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  opacity: 0.50;
+  filter: alpha(opacity=50); }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .background-poster {
+      background-image: url("./../img/IMG_0100_S.JPG"); } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .background-poster {
+      background-image: url("./../img/IMG_0100_S.JPG");
+      height: 350px; } }
+  @media all and (max-width: 479px) {
+    .background-poster {
+      background-image: url("./../img/IMG_0100_S.JPG");
+      height: 225px; } }
+
 @font-face {
   font-family: 'street_credregular';
   src: url("../fonts/street-cred/street_cred-webfont.eot");
@@ -66,52 +85,23 @@ a {
   font-family: "street_credregular", "Arial Black", "Arial Bold", sans-serif;
   text-transform: uppercase;
   text-align: center;
-  font-size: 4em; }
-  @media all and (min-width: 992px) and (max-width: 1199px) {
-    .logo {
-      font-size: 3em; } }
-  @media all and (min-width: 768px) and (max-width: 991px) {
-    .logo {
-      font-size: 3em; } }
+  font-size: 10vw; }
   @media all and (min-width: 480px) and (max-width: 767px) {
     .logo {
-      font-size: 2em; } }
+      font-size: 12vw; } }
   @media all and (max-width: 479px) {
     .logo {
-      font-size: 2em; } }
+      font-size: 12vw; } }
   .logo.record {
     color: #265e5e; }
-
-.ex-large {
-  margin-top: 2.5%;
-  font-size: 8em; }
-  @media all and (min-width: 992px) and (max-width: 1199px) {
-    .ex-large {
-      font-size: 6em; } }
-  @media all and (min-width: 768px) and (max-width: 991px) {
-    .ex-large {
-      font-size: 6em; } }
-  @media all and (min-width: 480px) and (max-width: 767px) {
-    .ex-large {
-      font-size: 5em; } }
-  @media all and (max-width: 479px) {
-    .ex-large {
-      font-size: 5em; } }
-
-.ex-small {
-  font-size: 2vw; }
-  @media all and (min-width: 992px) and (max-width: 1199px) {
-    .ex-small {
-      font-size: 2vw; } }
-  @media all and (min-width: 768px) and (max-width: 991px) {
-    .ex-small {
-      font-size: 3vw; } }
-  @media all and (min-width: 480px) and (max-width: 767px) {
-    .ex-small {
-      font-size: 5vw; } }
-  @media all and (max-width: 479px) {
-    .ex-small {
-      font-size: 5vw; } }
+  .logo.hp-logo {
+    font-size: 8vw; }
+    @media all and (min-width: 480px) and (max-width: 767px) {
+      .logo.hp-logo {
+        font-size: 8vw; } }
+    @media all and (max-width: 479px) {
+      .logo.hp-logo {
+        font-size: 8vw; } }
 
 .recordingcontainer {
   width: 75%;
@@ -146,6 +136,40 @@ a {
   .subtitle.listen,
   .section-title.listen {
     margin-bottom: 10px; }
+  .subtitle.logo-box,
+  .section-title.logo-box {
+    font-size: 2vw;
+    position: inherit;
+    bottom: 0; }
+    @media all and (min-width: 480px) and (max-width: 767px) {
+      .subtitle.logo-box,
+      .section-title.logo-box {
+        font-size: 4vw;
+        padding: 0 5%; } }
+    @media all and (max-width: 479px) {
+      .subtitle.logo-box,
+      .section-title.logo-box {
+        font-size: 4vw;
+        padding: 0 5%; } }
+    .subtitle.logo-box__hp-logo,
+    .section-title.logo-box__hp-logo {
+      position: inherit;
+      bottom: 5%; }
+      @media all and (min-width: 480px) and (max-width: 767px) {
+        .subtitle.logo-box__hp-logo,
+        .section-title.logo-box__hp-logo {
+          font-size: 3vw;
+          padding: 0 5%; } }
+      @media all and (max-width: 479px) {
+        .subtitle.logo-box__hp-logo,
+        .section-title.logo-box__hp-logo {
+          font-size: 3vw;
+          padding: 0 5%; } }
+
+.subtitle__vw {
+  color: #ff9b37;
+  font-size: 2vw;
+  text-align: center; }
 
 .fa-anch {
   -webkit-transition: all 500ms ease-out;
@@ -318,7 +342,7 @@ body {
   height: 200px;
   z-index: 5;
   position: absolute;
-  top: 25%; }
+  top: 10%; }
 
 .gear-list {
   list-style-type: none;

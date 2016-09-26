@@ -55,63 +55,29 @@ a{
   font-family: $disco;
   text-transform: uppercase;
   text-align: center;
-  font-size: 4em;
-  @include breakpoint(desktop){
-    font-size: 3em;
-  }
-  @include breakpoint(tablet){
-    font-size: 3em;
-  }
+  font-size: 10vw;
   @include breakpoint(mobile){
-    font-size: 2em;
+    font-size: 12vw;
   }
   @include breakpoint(iphone){
-    font-size: 2em;
+    font-size: 12vw;
   }
   &.record {
     color: $blue-green;
   }
 
-}
+  &.hp-logo {
+    font-size: 8vw;
+    @include breakpoint(mobile){
+      font-size: 8vw;
+    }
+    @include breakpoint(iphone){
+      font-size: 8vw;
+    }
 
-
-.ex-large {
-  margin-top: 2.5%;
-  font-size: 8em;
-  @include breakpoint(desktop){
-    font-size: 6em;
-  }
-  @include breakpoint(tablet){
-    font-size: 6em;
-  }
-  @include breakpoint(mobile){
-    font-size: 5em;
-  }
-  @include breakpoint(iphone){
-    font-size: 5em;
   }
 
 }
-
-
-
-.ex-small {
-  font-size: 2vw;
-  @include breakpoint(desktop){
-    font-size: 2vw;
-  }
-  @include breakpoint(tablet){
-    font-size: 3vw;
-  }
-  @include breakpoint(mobile){
-    font-size: 5vw;
-  }
-  @include breakpoint(iphone){
-    font-size: 5vw;
-  }
-
-}
-
 
 .recordingcontainer {
   width: 75%;
@@ -148,6 +114,39 @@ a{
   text-align: center;
   &.listen{
     margin-bottom: 10px;
+  }
+  &.logo-box {
+    font-size: 2vw;
+    position: inherit;
+    bottom: 0;
+    @include breakpoint(mobile){
+      font-size: 4vw;
+      padding: 0 5%;
+    }
+    @include breakpoint(iphone){
+      font-size: 4vw;
+      padding: 0 5%;
+    }
+    &__hp-logo {
+      position: inherit;
+      bottom: 5%;
+      @include breakpoint(mobile){
+        font-size: 3vw;
+        padding: 0 5%;
+      }
+      @include breakpoint(iphone){
+        font-size: 3vw;
+        padding: 0 5%;
+      }
+    }
+  }
+}
+
+.subtitle {
+  &__vw {
+    color: $orange;
+    font-size: 2vw;
+    text-align: center;
   }
 }
 

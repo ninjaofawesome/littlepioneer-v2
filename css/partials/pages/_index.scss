@@ -3,14 +3,14 @@ body{
 }
 
 .fill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    & img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  & img {
     flex-shrink:0;
     min-width:100%;
     min-height:33%;
@@ -24,6 +24,6 @@ body{
   height: 200px;
   z-index: 5;
   position: absolute;
-  top: 25%;
+  top: 10%;
 }
 
