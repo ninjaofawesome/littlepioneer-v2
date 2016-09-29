@@ -28,22 +28,17 @@
       width: 300px; } }
 
 .background-poster {
-  background-image: url("./../img/IMG_0100_M.JPG");
+  background-image: url("./../img/img4.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
   opacity: 0.50;
   filter: alpha(opacity=50); }
-  @media all and (min-width: 768px) and (max-width: 991px) {
-    .background-poster {
-      background-image: url("./../img/IMG_0100_S.JPG"); } }
   @media all and (min-width: 480px) and (max-width: 767px) {
     .background-poster {
-      background-image: url("./../img/IMG_0100_S.JPG");
-      height: 350px; } }
+      height: 225px; } }
   @media all and (max-width: 479px) {
     .background-poster {
-      background-image: url("./../img/IMG_0100_S.JPG");
       height: 225px; } }
 
 @font-face {
