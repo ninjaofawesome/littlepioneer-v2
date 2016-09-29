@@ -28,7 +28,7 @@
       width: 300px; } }
 
 .background-poster {
-  background-image: url("./../img/img4.JPG");
+  background-image: url("img/img4.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
