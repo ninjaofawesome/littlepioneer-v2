@@ -1,24 +1,6 @@
 body{
   background: $white;
 }
-
-.fill {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  & img {
-    flex-shrink:0;
-    min-width:100%;
-    min-height:33%;
-    opacity: 0.50;
-    filter: alpha(opacity=50);
-  }
-}
-
 .logo-box {
   width: 100%;
   height: 200px;
