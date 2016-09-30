@@ -40,15 +40,10 @@
   height:350px;
   opacity: 0.50;
   filter: alpha(opacity=50);
-  @include breakpoint(tablet){
-    background-image: url('./../img/IMG_0100_S.JPG');
-  }
   @include breakpoint(mobile){
-    background-image: url('./../img/IMG_0100_S.JPG');
-    height: 350px;
+    height: 250px;
   }
   @include breakpoint(iphone){
-    background-image: url('./../img/IMG_0100_S.JPG');
     height: 225px;
   }
 }
