@@ -32,6 +32,19 @@
   }
 }
 
+.collaborate-img-small {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+  @include breakpoint(mobile){
+    width: 250px;
+  }
+  @include breakpoint(iphone){
+    width: 250px;
+  }
+}
 
 .background-poster {
   background-image: url('./../img/img4.jpg');

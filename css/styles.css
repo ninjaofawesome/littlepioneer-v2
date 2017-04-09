@@ -27,6 +27,19 @@
     .collaborate-img {
       width: 300px; } }
 
+.collaborate-img-small {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto; }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .collaborate-img-small {
+      width: 250px; } }
+  @media all and (max-width: 479px) {
+    .collaborate-img-small {
+      width: 250px; } }
+
 .background-poster {
   background-image: url("./../img/img4.jpg");
   background-repeat: no-repeat;
@@ -158,6 +171,36 @@ a {
       @media all and (max-width: 479px) {
         .subtitle.logo-box__hp-logo,
         .section-title.logo-box__hp-logo {
+          font-size: 3vw;
+          padding: 0 5%; } }
+
+.subtitle--orange {
+  color: #ff9b37;
+  text-transform: uppercase;
+  text-align: center; }
+  .subtitle--orange.listen {
+    margin-bottom: 10px; }
+  .subtitle--orange.logo-box {
+    font-size: 2vw;
+    position: inherit;
+    bottom: 0; }
+    @media all and (min-width: 480px) and (max-width: 767px) {
+      .subtitle--orange.logo-box {
+        font-size: 4vw;
+        padding: 0 5%; } }
+    @media all and (max-width: 479px) {
+      .subtitle--orange.logo-box {
+        font-size: 4vw;
+        padding: 0 5%; } }
+    .subtitle--orange.logo-box__hp-logo {
+      position: inherit;
+      bottom: 5%; }
+      @media all and (min-width: 480px) and (max-width: 767px) {
+        .subtitle--orange.logo-box__hp-logo {
+          font-size: 3vw;
+          padding: 0 5%; } }
+      @media all and (max-width: 479px) {
+        .subtitle--orange.logo-box__hp-logo {
           font-size: 3vw;
           padding: 0 5%; } }
 

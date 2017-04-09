@@ -142,6 +142,40 @@ a{
   }
 }
 
+.subtitle--orange {
+  color: $orange;
+  text-transform: uppercase;
+  text-align: center;
+  &.listen{
+    margin-bottom: 10px;
+  }
+  &.logo-box {
+    font-size: 2vw;
+    position: inherit;
+    bottom: 0;
+    @include breakpoint(mobile){
+      font-size: 4vw;
+      padding: 0 5%;
+    }
+    @include breakpoint(iphone){
+      font-size: 4vw;
+      padding: 0 5%;
+    }
+    &__hp-logo {
+      position: inherit;
+      bottom: 5%;
+      @include breakpoint(mobile){
+        font-size: 3vw;
+        padding: 0 5%;
+      }
+      @include breakpoint(iphone){
+        font-size: 3vw;
+        padding: 0 5%;
+      }
+    }
+  }
+}
+
 .subtitle {
   &__vw {
     color: $orange;
